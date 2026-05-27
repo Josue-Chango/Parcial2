@@ -22,3 +22,15 @@ E:\GIT\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.csproj.Generate
 E:\GIT\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.csproj.CoreCompileInputs.cache
 E:\GIT\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.exe
 E:\GIT\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.pdb
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\bin\Debug\OperacionDDA.exe.config
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\bin\Debug\OperacionDDA.exe
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\bin\Debug\OperacionDDA.pdb
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.csproj.AssemblyReference.cache
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.FrmCircunferencia.resources
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.FrmMenu.resources
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.FrmPrincipal.resources
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.Properties.Resources.resources
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.csproj.GenerateResource.cache
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.csproj.CoreCompileInputs.cache
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.exe
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.pdb
