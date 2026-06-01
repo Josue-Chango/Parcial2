@@ -12,90 +12,141 @@ namespace OperacionDDA
 {
     public partial class FrmRelleno : Form
     {
-        int radio = 110;
-        bool dibujar = false;
+        private Bitmap _canvasBitmap;
+        private Graphics _graphics;
+        private Point _lastPoint;
+        private bool _isDrawing = false;
 
-        Circunferencia circunferencia = new Circunferencia();
-        Relleno relleno = new Relleno();
-        Bitmap canvas;
-        Timer timer = new Timer();
+        private enum Mode { Drawing, Filling }
+        private Mode _currentMode = Mode.Drawing;
 
-        private void Timer_Tick(object sender, EventArgs e)
-        {
-            bool enProgreso = relleno.PasoFloodFill(pasosPorTick: 30);
-            pictureBox1.Invalidate();
+        private enum AlgorithmType { FloodFill, BoundaryFill, ScanlineFloodFill }
+        private AlgorithmType _selectedAlgorithm;
 
-            if (!enProgreso)
-                timer.Stop(); // Relleno completado
-        }
+        private FloodFillStepper _floodFill;
+        private BoundaryFillStepper _boundaryFill;
+        private ScanlineFloodFillStepper _scanlineFill;
 
         public FrmRelleno()
         {
             InitializeComponent();
-            timer.Interval = 1; // milisegundos entre cada tick
-            timer.Tick += Timer_Tick;
-            this.Load += FrmRelleno_Load;
-        }
-        
-        private void pictureBox1_Paint(object sender, PaintEventArgs e)
-        {
-            e.Graphics.DrawImage(canvas, 0, 0);
-
+            InitializeCanvas();
         }
 
-
-        private void btnCirculo_Click(object sender, EventArgs e)
+        private void InitializeCanvas()
         {
-            timer.Stop();
-            relleno.Resetear();
-            dibujar = true;
+            _canvasBitmap = new Bitmap(picCanvas.Width, picCanvas.Height);
+            _graphics = Graphics.FromImage(_canvasBitmap);
+            _graphics.Clear(Color.White);
+            picCanvas.Image = _canvasBitmap;
 
-            int cx = pictureBox1.Width / 2;
-            int cy = pictureBox1.Height / 2;
+        }
 
-            using (Graphics g = Graphics.FromImage(canvas))
+        private void btnDraw_Click(object sender, EventArgs e)
+        {
+            _currentMode = Mode.Drawing;
+        }
+
+        private void btnFill_Click(object sender, EventArgs e)
+        {
+            _currentMode = Mode.Filling;
+            _selectedAlgorithm = AlgorithmType.FloodFill;
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            fillTimer.Stop();
+            _graphics.Clear(Color.White);
+            picCanvas.Refresh();
+        }
+
+        private void picCanvas_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (_currentMode == Mode.Drawing)
             {
-                g.Clear(Color.White); // Limpiar fondo
-                circunferencia.DibujarCircunferencia(g, cx, cy, radio, Color.Blue);
+                _isDrawing = true;
+                _lastPoint = e.Location;
             }
-
-            pictureBox1.Invalidate();
-        }
-
-        private void pictureBox1_MouseClick_1(object sender, MouseEventArgs e)
-        {
-            if (!dibujar) return;
-            if (relleno.EstaActivo()) return; 
-
-            relleno.IniciarFloodFill(canvas, e.X, e.Y, Color.Red);
-            timer.Start();
-        }
-
-        private void FrmRelleno_Load(object sender, EventArgs e)
-        {
-            canvas = new Bitmap(pictureBox1.Width, pictureBox1.Height);
-            using (Graphics g = Graphics.FromImage(canvas))
+            else if (_currentMode == Mode.Filling && e.Button == MouseButtons.Left)
             {
-                g.Clear(Color.White);
+                _floodFill = null;
+                _boundaryFill = null;
+                _scanlineFill = null;
+
+                switch (_selectedAlgorithm)
+                {
+                    case AlgorithmType.FloodFill:
+                        _floodFill = new FloodFillStepper(_canvasBitmap);
+                        _floodFill.StartAlgorithm(e.Location, Color.Red);
+                        break;
+
+                    case AlgorithmType.BoundaryFill:
+                        _boundaryFill = new BoundaryFillStepper(_canvasBitmap);
+                        _boundaryFill.StartAlgorithm(e.Location, Color.Blue);
+                        break;
+
+                    case AlgorithmType.ScanlineFloodFill:
+                        _scanlineFill = new ScanlineFloodFillStepper(_canvasBitmap);
+                        _scanlineFill.StartAlgorithm(e.Location, Color.Green);
+                        break;
+                }
+
+                fillTimer.Interval = 15; 
+                fillTimer.Start();
             }
         }
 
-        private void btnCuadrado_Click(object sender, EventArgs e)
+        private void picCanvas_MouseMove(object sender, MouseEventArgs e)
         {
-            timer.Stop();
-            relleno.Resetear();
-            dibujar = true;
-
-            int cx = pictureBox1.Width / 2;
-            int cy = pictureBox1.Height / 2;
-
-            using (Graphics g = Graphics.FromImage(canvas))
+            if (_currentMode == Mode.Drawing && _isDrawing)
             {
-                g.Clear(Color.White); // Limpiar fondo
-                g.DrawRectangle(Pens.Blue, cx - radio, cy - radio, radio * 2, radio * 2);
+                using (Pen pen = new Pen(Color.Black, 2))
+                {
+                    _graphics.DrawLine(pen, _lastPoint, e.Location);
+                }
+                _lastPoint = e.Location;
+                picCanvas.Refresh();
             }
+        }
 
-            pictureBox1.Invalidate();
+        private void picCanvas_MouseUp(object sender, MouseEventArgs e)
+        {
+            _isDrawing = false;
+        }
+
+        private void fillTimer_Tick(object sender, EventArgs e)
+        {
+            if (_floodFill != null && !_floodFill.IsFinished)
+            {
+                _floodFill.ProcessStep(10);
+                picCanvas.Refresh();
+            }
+            else if (_boundaryFill != null && !_boundaryFill.IsFinished)
+            {
+                _boundaryFill.ProcessStep(10);
+                picCanvas.Refresh();
+            }
+            else if (_scanlineFill != null && !_scanlineFill.IsFinished)
+            {
+                _scanlineFill.ProcessStep(5); 
+                picCanvas.Refresh();
+            }
+            else
+            {
+                fillTimer.Stop();
+            }
+        }
+
+        private void btnFill2_Click(object sender, EventArgs e)
+        {
+            _currentMode = Mode.Filling;
+            _selectedAlgorithm = AlgorithmType.BoundaryFill;
+        }
+
+        private void btnFill3_Click(object sender, EventArgs e)
+        {
+            _currentMode = Mode.Filling;
+            _selectedAlgorithm = AlgorithmType.ScanlineFloodFill;
         }
     }
 }
