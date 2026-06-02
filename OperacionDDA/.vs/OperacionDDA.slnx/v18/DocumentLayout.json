@@ -1,65 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\",
+  "WorkspaceRootPath": "E:\\GIT\\Parcial2\\OperacionDDA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|c:\\users\\mateo\\documents\\ay\\grafica\\2doparcial\\parcial2\\operaciondda\\operaciondda\\frmrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|e:\\git\\parcial2\\operaciondda\\operaciondda\\frmrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\scanlinefloodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\scanlinefloodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\floodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\floodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\boundaryfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\boundaryfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\frmrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\frmrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmrelleno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\boundaryfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\boundaryfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\frmrelleno.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\scanlinefloodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\scanlinefloodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\floodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\floodfillstepper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\frmrelleno.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmrelleno.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\frmcircunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\frmcircunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmcircunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\operaciondda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\operaciondda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\operaciondda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\circunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\circunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\circunferencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\operaciondda\\validador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|E:\\GIT\\Parcial2\\OperacionDDA\\operaciondda\\validador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33DF345A-C107-42B7-9251-C34DC56969AF}|OperacionDDA\\OperacionDDA.csproj|solutionrelative:operaciondda\\validador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,19 +70,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "BoundaryFillStepper.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\BoundaryFillStepper.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\BoundaryFillStepper.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\BoundaryFillStepper.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\BoundaryFillStepper.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\BoundaryFillStepper.cs",
               "RelativeToolTip": "OperacionDDA\\BoundaryFillStepper.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,48 +89,47 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FrmRelleno.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmRelleno.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs",
               "RelativeToolTip": "OperacionDDA\\FrmRelleno.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAEwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAswDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T14:53:38.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FloodFillStepper.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FloodFillStepper.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FloodFillStepper.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FloodFillStepper.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FloodFillStepper.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FloodFillStepper.cs",
               "RelativeToolTip": "OperacionDDA\\FloodFillStepper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T14:39:23.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-28T14:39:23.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ScanlineFloodFillStepper.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\ScanlineFloodFillStepper.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\ScanlineFloodFillStepper.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\ScanlineFloodFillStepper.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\ScanlineFloodFillStepper.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\ScanlineFloodFillStepper.cs",
               "RelativeToolTip": "OperacionDDA\\ScanlineFloodFillStepper.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA/wFIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswFIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T23:24:53.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FrmRelleno.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmRelleno.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs [Dise\u00F1o]",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.cs [Dise\u00F1o]",
               "RelativeToolTip": "OperacionDDA\\FrmRelleno.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T14:32:30.808Z",
@@ -144,56 +139,59 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "FrmPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "OperacionDDA\\FrmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T22:12:45.143Z"
+              "WhenOpened": "2026-06-01T22:12:45.143Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "FrmMenu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmMenu.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs [Dise\u00F1o]",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs [Dise\u00F1o]",
               "RelativeToolTip": "OperacionDDA\\FrmMenu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T14:31:57.156Z"
+              "WhenOpened": "2026-05-28T14:31:57.156Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "FrmMenu.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmMenu.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmMenu.cs",
               "RelativeToolTip": "OperacionDDA\\FrmMenu.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T14:36:28.119Z"
+              "WhenOpened": "2026-05-26T14:36:28.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "FrmRelleno.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.Designer.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.Designer.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmRelleno.Designer.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.Designer.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmRelleno.Designer.cs",
               "RelativeToolTip": "OperacionDDA\\FrmRelleno.Designer.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAowMkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T21:39:32.922Z"
+              "WhenOpened": "2026-06-01T21:39:32.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "FrmCircunferencia.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmCircunferencia.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmCircunferencia.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmCircunferencia.cs",
               "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmCircunferencia.cs [Dise\u00F1o]",
-              "RelativeToolTip": "OperacionDDA\\FrmCircunferencia.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T14:37:11.296Z"
             },
@@ -201,21 +199,22 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\FrmPrincipal.cs",
               "RelativeToolTip": "OperacionDDA\\FrmPrincipal.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAA5wCcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T23:35:03.078Z"
+              "WhenOpened": "2026-05-23T23:35:03.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\Program.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\Program.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\Program.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\Program.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\Program.cs",
               "RelativeToolTip": "OperacionDDA\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,9 +224,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Circunferencia.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\Circunferencia.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\Circunferencia.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\Circunferencia.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\Circunferencia.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\Circunferencia.cs",
               "RelativeToolTip": "OperacionDDA\\Circunferencia.cs",
               "ViewState": "AgIAAOIAAAAAAAAAAAAAAHIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -237,9 +236,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Validador.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\Validador.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\Validador.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\Validador.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\Validador.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\Validador.cs",
               "RelativeToolTip": "OperacionDDA\\Validador.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAQwCYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,9 +248,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "OperacionDDA.cs",
-              "DocumentMoniker": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\OperacionDDA.cs",
+              "DocumentMoniker": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\OperacionDDA.cs",
               "RelativeDocumentMoniker": "OperacionDDA\\OperacionDDA.cs",
-              "ToolTip": "C:\\Users\\MATEO\\Documents\\AY\\Grafica\\2doParcial\\Parcial2\\OperacionDDA\\OperacionDDA\\OperacionDDA.cs",
+              "ToolTip": "E:\\GIT\\Parcial2\\OperacionDDA\\OperacionDDA\\OperacionDDA.cs",
               "RelativeToolTip": "OperacionDDA\\OperacionDDA.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAwwJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

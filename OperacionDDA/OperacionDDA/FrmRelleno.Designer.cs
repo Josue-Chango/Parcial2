@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnFill3 = new System.Windows.Forms.Button();
+            this.btnFill2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnFill = new System.Windows.Forms.Button();
             this.btnDraw = new System.Windows.Forms.Button();
             this.picCanvas = new System.Windows.Forms.PictureBox();
             this.fillTimer = new System.Windows.Forms.Timer(this.components);
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnFill2 = new System.Windows.Forms.Button();
-            this.btnFill3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
             this.SuspendLayout();
@@ -64,6 +64,44 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(642, 413);
             this.panel1.TabIndex = 0;
+            // 
+            // btnFill3
+            // 
+            this.btnFill3.Location = new System.Drawing.Point(498, 241);
+            this.btnFill3.Name = "btnFill3";
+            this.btnFill3.Size = new System.Drawing.Size(75, 23);
+            this.btnFill3.TabIndex = 10;
+            this.btnFill3.Text = "Rellenar";
+            this.btnFill3.UseVisualStyleBackColor = true;
+            this.btnFill3.Click += new System.EventHandler(this.btnFill3_Click);
+            // 
+            // btnFill2
+            // 
+            this.btnFill2.Location = new System.Drawing.Point(498, 164);
+            this.btnFill2.Name = "btnFill2";
+            this.btnFill2.Size = new System.Drawing.Size(75, 23);
+            this.btnFill2.TabIndex = 9;
+            this.btnFill2.Text = "Rellenar";
+            this.btnFill2.UseVisualStyleBackColor = true;
+            this.btnFill2.Click += new System.EventHandler(this.btnFill2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(495, 211);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "ScanlineFill:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(495, 133);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "BoundaryFill:";
             // 
             // label1
             // 
@@ -132,44 +170,6 @@
             // 
             this.fillTimer.Tick += new System.EventHandler(this.fillTimer_Tick);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(495, 133);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "BoundaryFill:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(495, 211);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "ScanlineFill:";
-            // 
-            // btnFill2
-            // 
-            this.btnFill2.Location = new System.Drawing.Point(498, 164);
-            this.btnFill2.Name = "btnFill2";
-            this.btnFill2.Size = new System.Drawing.Size(75, 23);
-            this.btnFill2.TabIndex = 9;
-            this.btnFill2.Text = "Rellenar";
-            this.btnFill2.UseVisualStyleBackColor = true;
-            this.btnFill2.Click += new System.EventHandler(this.btnFill2_Click);
-            // 
-            // btnFill3
-            // 
-            this.btnFill3.Location = new System.Drawing.Point(498, 241);
-            this.btnFill3.Name = "btnFill3";
-            this.btnFill3.Size = new System.Drawing.Size(75, 23);
-            this.btnFill3.TabIndex = 10;
-            this.btnFill3.Text = "Rellenar";
-            this.btnFill3.UseVisualStyleBackColor = true;
-            this.btnFill3.Click += new System.EventHandler(this.btnFill3_Click);
-            // 
             // FrmRelleno
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -177,6 +177,8 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmRelleno";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Tag = "0,0";
             this.Text = "FrmRellano";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
