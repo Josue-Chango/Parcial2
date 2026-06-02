@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using shappes_2d;
 
 namespace OperacionDDA
 {
@@ -20,6 +21,7 @@ namespace OperacionDDA
         private Color lineaColor = Color.Black;
         OperacionDDA operacionDDA = new OperacionDDA();
         bool dibujar = false;
+        string algoritmoActual = "";
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -34,8 +36,19 @@ namespace OperacionDDA
 
             if (dibujar)
             {
-                //operacionDDA.DDA(e.Graphics, x1, y1, x2, y2, lineaColor);
-                operacionDDA.DDACentrado(e.Graphics, x1, y1, x2, y2, lineaColor, cx, cy);
+                if (algoritmoActual == "DDA")
+                {
+                    operacionDDA.DDACentrado(e.Graphics, x1, y1, x2, y2, Color.Blue, cx, cy);
+                }
+                else if (algoritmoActual == "Bresenham")
+                {
+                    operacionDDA.Bresenham(e.Graphics, x1, y1, x2, y2, Color.Red, cx, cy);
+                }
+                else if (algoritmoActual == "PuntoMedio")
+                {
+                    operacionDDA.PuntoMedio(e.Graphics, x1, y1, x2, y2, Color.Green, cx, cy);
+                }
+
                 lstPuntos.Items.Clear();
                 lblPasos.Text = $"Pasos: {operacionDDA.getPasos()}";
                 foreach (var linea in operacionDDA.puntosLista)
@@ -58,17 +71,84 @@ namespace OperacionDDA
 
         private void btnDibujar_Click(object sender, EventArgs e)
         {
-            lstPuntos.Items.Clear();
-            x1 = operacionDDA.Validar(txtX1.Text);
-            y1 = operacionDDA.Validar(txtY1.Text);
-            x2 = operacionDDA.Validar(txtX2.Text);
-            y2 = operacionDDA.Validar(txtY2.Text);
-            
-            dibujar = true;
-            pictureBox1.Invalidate();
-            
+            if (ValidarEntradas())
+            {
+                lstPuntos.Items.Clear();
+                algoritmoActual = "DDA";
+                dibujar = true;
+                pictureBox1.Invalidate();
+            }
         }
 
+        private void btnBresenham_Click(object sender, EventArgs e)
+        {
+            if (ValidarEntradas())
+            {
+                lstPuntos.Items.Clear();
+                algoritmoActual = "Bresenham";
+                dibujar = true;
+                pictureBox1.Invalidate();
+            }
+        }
 
+        private void btnPuntoMedio_Click(object sender, EventArgs e)
+        {
+            if (ValidarEntradas())
+            {
+                lstPuntos.Items.Clear();
+                algoritmoActual = "PuntoMedio";
+                dibujar = true;
+                pictureBox1.Invalidate();
+            }
+        }
+
+        private bool ValidarEntradas()
+        {
+            if (Validador.Validar<int>(txtX1.Text) &&
+                Validador.Validar<int>(txtY1.Text) &&
+                Validador.Validar<int>(txtX2.Text) &&
+                Validador.Validar<int>(txtY2.Text))
+            {
+                x1 = int.Parse(txtX1.Text);
+                y1 = int.Parse(txtY1.Text);
+                x2 = int.Parse(txtX2.Text);
+                y2 = int.Parse(txtY2.Text);
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Ingresa números enteros válidos para las coordenadas.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            lstPuntos.Items.Clear();
+            txtX1.Text = "";
+            txtY1.Text = "";
+            txtX2.Text = "";
+            txtY2.Text = "";
+            lblPasos.Text = "Pasos";
+            
+            algoritmoActual = "";
+            dibujar = false;
+            pictureBox1.Invalidate();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtX2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
