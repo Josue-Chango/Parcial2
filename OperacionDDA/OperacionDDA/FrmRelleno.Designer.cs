@@ -40,8 +40,11 @@
             this.btnDraw = new System.Windows.Forms.Button();
             this.picCanvas = new System.Windows.Forms.PictureBox();
             this.fillTimer = new System.Windows.Forms.Timer(this.components);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rtbFormula = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -50,6 +53,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.Info;
+            this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.btnFill3);
             this.panel1.Controls.Add(this.btnFill2);
             this.panel1.Controls.Add(this.label3);
@@ -67,7 +71,7 @@
             // 
             // btnFill3
             // 
-            this.btnFill3.Location = new System.Drawing.Point(498, 241);
+            this.btnFill3.Location = new System.Drawing.Point(564, 147);
             this.btnFill3.Name = "btnFill3";
             this.btnFill3.Size = new System.Drawing.Size(75, 23);
             this.btnFill3.TabIndex = 10;
@@ -77,7 +81,7 @@
             // 
             // btnFill2
             // 
-            this.btnFill2.Location = new System.Drawing.Point(498, 164);
+            this.btnFill2.Location = new System.Drawing.Point(564, 98);
             this.btnFill2.Name = "btnFill2";
             this.btnFill2.Size = new System.Drawing.Size(75, 23);
             this.btnFill2.TabIndex = 9;
@@ -88,27 +92,27 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(495, 211);
+            this.label3.Location = new System.Drawing.Point(483, 147);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 8;
             this.label3.Text = "ScanlineFill:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(495, 133);
+            this.label2.Location = new System.Drawing.Point(475, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.Size = new System.Drawing.Size(85, 16);
             this.label2.TabIndex = 7;
             this.label2.Text = "BoundaryFill:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(495, 55);
+            this.label1.Location = new System.Drawing.Point(483, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.Size = new System.Drawing.Size(62, 16);
             this.label1.TabIndex = 6;
             this.label1.Text = "FloodFill:";
             // 
@@ -130,7 +134,7 @@
             this.btnFill.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFill.Location = new System.Drawing.Point(498, 83);
+            this.btnFill.Location = new System.Drawing.Point(564, 55);
             this.btnFill.Name = "btnFill";
             this.btnFill.Size = new System.Drawing.Size(75, 22);
             this.btnFill.TabIndex = 4;
@@ -170,6 +174,24 @@
             // 
             this.fillTimer.Tick += new System.EventHandler(this.fillTimer_Tick);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rtbFormula);
+            this.groupBox1.Location = new System.Drawing.Point(489, 240);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(139, 167);
+            this.groupBox1.TabIndex = 11;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Formulas";
+            // 
+            // rtbFormula
+            // 
+            this.rtbFormula.Location = new System.Drawing.Point(8, 23);
+            this.rtbFormula.Name = "rtbFormula";
+            this.rtbFormula.Size = new System.Drawing.Size(130, 143);
+            this.rtbFormula.TabIndex = 0;
+            this.rtbFormula.Text = "";
+            // 
             // FrmRelleno
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -183,6 +205,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCanvas)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -200,5 +223,7 @@
         private System.Windows.Forms.Button btnFill2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RichTextBox rtbFormula;
     }
 }

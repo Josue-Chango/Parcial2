@@ -241,6 +241,24 @@ namespace OperacionDDA
             return pipxelesParametrico; 
         }
 
+        public void DibujarAnimado(Graphics g, List<string> lista, Color color, int cantidad)
+            {
+                using (Brush brush = new SolidBrush(color))
+                {
+                    for (int i = 0; i < cantidad && i < lista.Count; i++)
+                    {
+                        string[] coords = lista[i]
+                            .Trim('(', ')')
+                            .Split(',');
+
+                        int x = int.Parse(coords[0]);
+                        int y = int.Parse(coords[1]);
+
+                        g.FillRectangle(brush, x, y, 1, 1);
+                    }
+                }
+            }
+
 
     }
 }

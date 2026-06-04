@@ -51,6 +51,7 @@ namespace OperacionDDA
         {
             _currentMode = Mode.Filling;
             _selectedAlgorithm = AlgorithmType.FloodFill;
+            MostrarFormulaRelleno();
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -141,12 +142,78 @@ namespace OperacionDDA
         {
             _currentMode = Mode.Filling;
             _selectedAlgorithm = AlgorithmType.BoundaryFill;
+            MostrarFormulaRelleno();
         }
 
         private void btnFill3_Click(object sender, EventArgs e)
         {
             _currentMode = Mode.Filling;
             _selectedAlgorithm = AlgorithmType.ScanlineFloodFill;
+            MostrarFormulaRelleno();
+        }
+
+        private void MostrarFormulaRelleno()
+        {
+            switch (_selectedAlgorithm)
+            {
+                case AlgorithmType.FloodFill:
+
+                    rtbFormula.Text =
+        @"FLOOD FILL
+
+Si pixel == colorObjetivo
+
+   pixel = colorRelleno
+
+Agregar vecinos:
+
+(x-1,y)
+
+(x+1,y)
+
+(x,y-1)
+
+(x,y+1)";
+                    break;
+
+                case AlgorithmType.BoundaryFill:
+
+                    rtbFormula.Text =
+        @"BOUNDARY FILL
+
+Si pixel != colorBorde
+
+y pixel != colorRelleno
+
+   pixel = colorRelleno
+
+Agregar vecinos:
+
+(x-1,y)
+
+(x+1,y)
+
+(x,y-1)
+
+(x,y+1)";
+                    break;
+
+                case AlgorithmType.ScanlineFloodFill:
+
+                    rtbFormula.Text =
+        @"SCANLINE FLOOD FILL
+
+Buscar límite izquierdo
+
+Buscar límite derecho
+
+Rellenar línea completa
+
+Explorar línea superior
+
+Explorar línea inferior";
+                    break;
+            }
         }
     }
 }

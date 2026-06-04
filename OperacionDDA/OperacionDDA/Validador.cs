@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace shappes_2d
 {
@@ -58,6 +59,19 @@ namespace shappes_2d
             if (ladoA + ladoB <= ladoC || ladoA + ladoC <= ladoB || ladoB + ladoC <= ladoA)
                 return false;
             return true;
+        }
+
+        public static int ValidarEntrada(string entrada)
+        {
+            if (Validar<int>(entrada))
+            {
+                return int.Parse(entrada);
+            }
+            else
+            {
+                MessageBox.Show("Ingresa números enteros válidos para las coordenadas.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return 0;
+            }
         }
     }
 }

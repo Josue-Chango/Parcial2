@@ -62,3 +62,4 @@ C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\2 Parcial\Clase 3\Parcial
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\2 Parcial\Clase 3\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.csproj.CoreCompileInputs.cache
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\2 Parcial\Clase 3\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.exe
 C:\Users\micha\OneDrive\Escritorio\Computacion Grafica\2 Parcial\Clase 3\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.pdb
+C:\Users\Josue\Documents\GitHub\Parcial2\OperacionDDA\OperacionDDA\obj\Debug\OperacionDDA.FrmRelleno.resources
